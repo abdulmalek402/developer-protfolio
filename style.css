@@ -1,3 +1,71 @@
-.body{
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.topbanner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.orage-color{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+.text-button{
     
+    background: linear-gradient(45deg,tomato,pink);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    
+}
+.expe-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+.expe-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 70%;
+}
+.experience-text{
+    font-size: 50px;
+  
+}
+.expe-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+#full-stack{
+   border-left: 7px solid;
+   border-image: linear-gardient(180dg,blue,cyan);
+   border-image-slice: 1;
+}
+#junio-dev{
+    border-left: 7px solid;
+   border-image: linear-gardient(blue,cyan);
+   border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
