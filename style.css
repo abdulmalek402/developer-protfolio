@@ -26,6 +26,11 @@ section{
 .half-width img{
     width: 100%;
 }
+.mid-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .text-button{
     
     background: linear-gradient(45deg,tomato,pink);
@@ -54,17 +59,18 @@ section{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    border-radius: 5px;
     
 }
 #full-stack{
-   border-left: 7px solid;
-   border-image: linear-gardient(180dg,blue,cyan);
-   border-image-slice: 1;
+    border-left: 7px solid;
+    border-image: linear-gradient(red,pink);
+    border-image-slice: 1;
 }
 #junio-dev{
     border-left: 7px solid;
-   border-image: linear-gardient(blue,cyan);
-   border-image-slice: 1;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 footer{
     text-align: center;
